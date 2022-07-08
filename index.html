@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./Css/Diseño.css">
+    <link rel="stylesheet" href="./Css/General.css">
+
+    <title>Dom</title>
+</head>
+
+<body>
+    <section class="section1">
+        <!--IMAGEN DE FONDO-->
+        <img class="imagen" src="https://i.postimg.cc/J0hwvHx5/abstract-light-yellow-and-dark-blue-blurred-pattern-with-multicolored-modern-texture-vibrant-on-grad.jpg"alt="">
+        
+        <!--USUARIOS-->
+        <div class="CajaUsuarios">
+            <div class="TextoUsuarios">
+                <span class="Texto" id="Texto">
+
+                </span>
+            </div>
+            <div class="botones">
+                <button id="derecha" class="Bt"  onclick="anterior()">
+                    <h1>Regresar</h1>
+                </button>
+                <button id="izquierda" class="Bt" onclick="siguiente()">
+                    <h1>Siguiente</h1>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--ARCHIVOS JS-->
+    <script src="./Js/Main.js"></script>
+    <script src="./Js/users.js"></script>
+</body>
+
+</html>
