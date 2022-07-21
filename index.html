@@ -13,36 +13,46 @@
     <!--CSS-->
     <link rel="stylesheet" href="./Css/Diseño.css">
     <link rel="stylesheet" href="./Css/General.css">
+    <link rel="stylesheet" href="./Css/UserInfo.css">
 
     <title>Dom</title>
-</head>
 
+</head>
 <body>
+
     <section class="section1">
         <!--IMAGEN DE FONDO-->
         <img class="imagen" src="https://i.postimg.cc/J0hwvHx5/abstract-light-yellow-and-dark-blue-blurred-pattern-with-multicolored-modern-texture-vibrant-on-grad.jpg"alt="">
-        
+
         <!--USUARIOS-->
+        <div class="prueba">
         <div class="CajaUsuarios">
             <div class="TextoUsuarios">
-                <span class="Texto" id="Texto">
-
-                </span>
+                <span class="Texto" id="Texto"></span>
             </div>
+
             <div class="botones">
-                <button id="derecha" class="Bt"  onclick="anterior()">
-                    <h1>Regresar</h1>
-                </button>
-                <button id="izquierda" class="Bt" onclick="siguiente()">
-                    <h1>Siguiente</h1>
-                </button>
+                <div id="izquierda" class="Bt">
+                    <h3>Regresar</h3>
+                </div>
+                <div id="derecha" class="Bt">
+                    <h3>Siguiente</h3>
+                </div>
+            </div>
+
+            <div class="Ver" id="Ver">
+                <h3>Ver</h3>
             </div>
         </div>
+        
+        <div class="CajaUsuarios2" id="root">
+            <h1>¡ Hola Bienvenido !</h1>
+            <img src="https://i.postimg.cc/L6jgpGzP/ae2d8ece4cbf1b3cd6ff81682659e4fb.gif" alt="">
+            <!--Información del usuario-->
+        </div>
+    </div>
     </section>
-
-    <!--ARCHIVOS JS-->
-    <script src="./Js/Main.js"></script>
+    <script src="./Js/Main.js" type="module"></script>
     <script src="./Js/users.js"></script>
 </body>
-
 </html>
